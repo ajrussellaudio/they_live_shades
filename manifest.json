@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Shades",
+  "description": "This extension shows you the world as it really is.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "shades.png"
+  },
+
+  "background": {
+    "scripts": ["app.js"]
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
