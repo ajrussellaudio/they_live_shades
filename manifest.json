@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Shades",
-  "description": "This extension shows you the world as it really is.",
-  "version": "1.0",
+  "description": "This Chrome extension simulates the effects of the sunglasses from the 1988 classic sci-fi horror They Live.",
+  "version": "0.0.1",
 
   "browser_action": {
     "default_icon": "shades.png"
@@ -14,7 +14,6 @@
   },
 
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
+    "activeTab"
   ]
 }
